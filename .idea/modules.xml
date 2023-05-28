@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Exercicios com ChatGPT.iml" filepath="$PROJECT_DIR$/.idea/Exercicios com ChatGPT.iml" />
+      <module fileurl="file://$PROJECT_DIR$/agenda_contatos/agenda_contatos.iml" filepath="$PROJECT_DIR$/agenda_contatos/agenda_contatos.iml" />
       <module fileurl="file://$PROJECT_DIR$/calculadora_de_desconto/calculadora_de_desconto.iml" filepath="$PROJECT_DIR$/calculadora_de_desconto/calculadora_de_desconto.iml" />
       <module fileurl="file://$PROJECT_DIR$/calculadora_simples/calculadora_simples.iml" filepath="$PROJECT_DIR$/calculadora_simples/calculadora_simples.iml" />
       <module fileurl="file://$PROJECT_DIR$/conversor_temperaturas/conversor_temperaturas.iml" filepath="$PROJECT_DIR$/conversor_temperaturas/conversor_temperaturas.iml" />
