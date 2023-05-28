@@ -5,6 +5,7 @@ import entities.Contact;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
+import java.util.stream.Collectors;
 
 public class Program {
     public static void main(String[] args) {
@@ -31,9 +32,9 @@ public class Program {
 
             if (option == 1) {
                 System.out.print("\nEnter contact name: ");
-                String name = sc.next();
+                String name = sc.nextLine();
                 System.out.print("Enter the contact's phone number: ");
-                String phone = sc.next();
+                String phone = sc.nextLine();
                 System.out.print("Enter contact email: ");
                 String email = sc.next();
                 sc.nextLine();
@@ -52,10 +53,60 @@ public class Program {
                             + "\n   Email: " + list.get(number).getEmail() + "\n");
                     number += 1;
                 }
+            } else if (option == 3) {
+                System.out.print("\nEnter the name of the contact you want to search for: ");
+                String nameSearch = sc.nextLine();
+                System.out.println();
 
+                List<Contact> contactsFound = new ArrayList<>();
+                for (Contact contact : list) {
+                    String firstName = contact.getName().split(" ")[0];
+                    if (firstName.equalsIgnoreCase(nameSearch)) {
+                        contactsFound.add(contact);
+                    }
+                }
+
+                if (contactsFound.isEmpty()) {
+                    System.out.println("Contact not found.\n");
+                } else {
+                    System.out.println("Search result:\n");
+                    for (Contact contactFound : contactsFound) {
+                        System.out.println("Name: " + contactFound.getName());
+                        System.out.println("Phone: " + contactFound.getPhone());
+                        System.out.println("Email: " + contactFound.getEmail());
+                        System.out.println();
+                    }
+                }
+            } else if (option == 4) {
+                System.out.print("\nEnter the number of the contact you want to update: ");
+                int numberContact = sc.nextInt();
+                numberContact -= 1;
+                sc.nextLine();
+                if (numberContact < 0 || numberContact > list.size()) {
+                    System.out.println("Number contact invalid.");
+                } else {
+                    Contact contact = list.get(numberContact);
+
+                    System.out.print("\nEnter the contact's new phone number: ");
+                    String newNumberPhone = sc.nextLine();
+
+                    contact.setPhone(newNumberPhone);
+
+                    System.out.println("\nContact information successfully updated!\n");
+                }
+            } else if (option == 5) {
+                System.out.print("\nEnter the number of the contact you want to remove: ");
+                int numberContact = sc.nextInt();
+                numberContact -= numberContact;
+
+                if (numberContact < 0 || numberContact > list.size()) {
+                    System.out.println("Number contact invalid.");
+                } else {
+                    list.remove(numberContact);
+
+                    System.out.println("\nContact removed successfully!\n");
+                }
             }
-
-
         }
         System.out.println("The program has ended.");
         sc.close();
