@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Exercicios com ChatGPT.iml" filepath="$PROJECT_DIR$/.idea/Exercicios com ChatGPT.iml" />
       <module fileurl="file://$PROJECT_DIR$/media_alunos/media_alunos.iml" filepath="$PROJECT_DIR$/media_alunos/media_alunos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/media_alunos_melhorada/media_alunos_melhorada.iml" filepath="$PROJECT_DIR$/media_alunos_melhorada/media_alunos_melhorada.iml" />
     </modules>
   </component>
 </project>
