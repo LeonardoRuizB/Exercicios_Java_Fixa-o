@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Exercicios com ChatGPT.iml" filepath="$PROJECT_DIR$/.idea/Exercicios com ChatGPT.iml" />
       <module fileurl="file://$PROJECT_DIR$/calculadora_de_desconto/calculadora_de_desconto.iml" filepath="$PROJECT_DIR$/calculadora_de_desconto/calculadora_de_desconto.iml" />
+      <module fileurl="file://$PROJECT_DIR$/calculadora_simples/calculadora_simples.iml" filepath="$PROJECT_DIR$/calculadora_simples/calculadora_simples.iml" />
       <module fileurl="file://$PROJECT_DIR$/conversor_temperaturas/conversor_temperaturas.iml" filepath="$PROJECT_DIR$/conversor_temperaturas/conversor_temperaturas.iml" />
       <module fileurl="file://$PROJECT_DIR$/gerador_senhas_aleatorias/gerador_senhas_aleatorias.iml" filepath="$PROJECT_DIR$/gerador_senhas_aleatorias/gerador_senhas_aleatorias.iml" />
       <module fileurl="file://$PROJECT_DIR$/media_alunos/media_alunos.iml" filepath="$PROJECT_DIR$/media_alunos/media_alunos.iml" />
