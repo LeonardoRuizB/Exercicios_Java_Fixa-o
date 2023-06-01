@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/gerador_senhas_aleatorias/gerador_senhas_aleatorias.iml" filepath="$PROJECT_DIR$/gerador_senhas_aleatorias/gerador_senhas_aleatorias.iml" />
       <module fileurl="file://$PROJECT_DIR$/gerenciador_tarefas/gerenciador_tarefas.iml" filepath="$PROJECT_DIR$/gerenciador_tarefas/gerenciador_tarefas.iml" />
       <module fileurl="file://$PROJECT_DIR$/gerenciamento_estoque/gerenciamento_estoque.iml" filepath="$PROJECT_DIR$/gerenciamento_estoque/gerenciamento_estoque.iml" />
+      <module fileurl="file://$PROJECT_DIR$/idade_atual/idade_atual.iml" filepath="$PROJECT_DIR$/idade_atual/idade_atual.iml" />
       <module fileurl="file://$PROJECT_DIR$/idade_em_dias/idade_em_dias.iml" filepath="$PROJECT_DIR$/idade_em_dias/idade_em_dias.iml" />
       <module fileurl="file://$PROJECT_DIR$/media_alunos/media_alunos.iml" filepath="$PROJECT_DIR$/media_alunos/media_alunos.iml" />
       <module fileurl="file://$PROJECT_DIR$/media_alunos_melhorada/media_alunos_melhorada.iml" filepath="$PROJECT_DIR$/media_alunos_melhorada/media_alunos_melhorada.iml" />
