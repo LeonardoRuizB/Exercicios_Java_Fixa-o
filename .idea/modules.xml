@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/calculo_compras/calculo_compras.iml" filepath="$PROJECT_DIR$/calculo_compras/calculo_compras.iml" />
       <module fileurl="file://$PROJECT_DIR$/calculo_fatorial/calculo_fatorial.iml" filepath="$PROJECT_DIR$/calculo_fatorial/calculo_fatorial.iml" />
       <module fileurl="file://$PROJECT_DIR$/conversor_temperaturas/conversor_temperaturas.iml" filepath="$PROJECT_DIR$/conversor_temperaturas/conversor_temperaturas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fibonacci/fibonacci.iml" filepath="$PROJECT_DIR$/fibonacci/fibonacci.iml" />
       <module fileurl="file://$PROJECT_DIR$/gerador_senhas_aleatorias/gerador_senhas_aleatorias.iml" filepath="$PROJECT_DIR$/gerador_senhas_aleatorias/gerador_senhas_aleatorias.iml" />
       <module fileurl="file://$PROJECT_DIR$/gerenciador_tarefas/gerenciador_tarefas.iml" filepath="$PROJECT_DIR$/gerenciador_tarefas/gerenciador_tarefas.iml" />
       <module fileurl="file://$PROJECT_DIR$/gerenciamento_estoque/gerenciamento_estoque.iml" filepath="$PROJECT_DIR$/gerenciamento_estoque/gerenciamento_estoque.iml" />
