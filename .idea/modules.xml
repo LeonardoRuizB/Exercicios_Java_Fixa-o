@@ -20,6 +20,7 @@
       <module fileurl="file://$PROJECT_DIR$/numero_primo/numero_primo.iml" filepath="$PROJECT_DIR$/numero_primo/numero_primo.iml" />
       <module fileurl="file://$PROJECT_DIR$/quantidade_salario_minimo/quantidade_salario_minimo.iml" filepath="$PROJECT_DIR$/quantidade_salario_minimo/quantidade_salario_minimo.iml" />
       <module fileurl="file://$PROJECT_DIR$/soma_produtos_ipi/soma_produtos_ipi.iml" filepath="$PROJECT_DIR$/soma_produtos_ipi/soma_produtos_ipi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/string_palindromo/string_palindromo.iml" filepath="$PROJECT_DIR$/string_palindromo/string_palindromo.iml" />
     </modules>
   </component>
 </project>
